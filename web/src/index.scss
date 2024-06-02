@@ -281,7 +281,7 @@ button:active {
 .shop-inventory-grid-container {
   display: grid;
   height: $containerSize;
-  grid-template-columns: repeat(1, 51vh);
+  grid-template-columns: repeat(2, 25.5vh);
   grid-auto-rows: $gridSize + 0.22vh;
   gap: $gridGap;
   overflow-y: scroll;
