@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
-$mainColor: #222c2a;
+$mainColor: rgb(17, 17, 17);
 $textColor: #c1c2c5;
 $mainFont: Teko;
 
-$secondaryColor: #4b5250a1;
-$secondaryColorHighlight: #33343F;
+$secondaryColor: rgba(25, 25, 25, 0.745);
+$secondaryColorHighlight: rgba(45, 45, 45, 0.745);
 $secondaryColorLight: rgba(0, 0, 0, 0.5);
 $secondaryColorDark: rgba(12, 12, 12, 0.8);
 
@@ -120,7 +120,7 @@ button:active {
 }
 
 .inventory-wrapper {
-  background-color: #0f1b1ce5;
+  background-color: rgba(17, 17, 17, 0.894);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -304,7 +304,7 @@ button:active {
 
 .inventory-slot:hover{
   color: black;
-  background-color: #e7e7e7e3;
+  background-color: #e64980df;
 }
 
 
@@ -381,7 +381,7 @@ button:active {
 .tooltip-wrapper {
   pointer-events: none;
   display: flex;
-  background-color: rgba(14, 21, 22, 0.861);
+  background-color: rgba(17, 17, 17, 0.861);
   width: 200px;
   padding: 8px;
   flex-direction: column;
